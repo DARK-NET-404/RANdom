@@ -5,3 +5,4 @@
 "[FBAN/FB4A;FBAV/163.0.0.93.82;FBBV/740627768;FBRV/0;FBPN/com.facebook.katana;FBLC/ne_NP;FBMF/Banglalink;FBBD/Banglalink;FBDV/OPPO;FBSV/8;FBCA/armeabi-v8a:armeabi;FBDM/{density=2.0,width=720,height=1440};FB_FW/1;]";
 "[FBAN/FB4A;FBAV/480.0.0.0.67;FBBV/455007274;FBDM/{density=2.8,width=1080,height=2400};FBLC/en_BM;FBRV/455007274;FBCR/Telkom;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.katana;FBDV/DE2117;FBSV/11;FBCA/armeabi-v7a:armeabi;]";
 "[FBAN/FB4A;FBAV/480.0.0.0.67;FBBV/455007274;FBDM/{density=2.7,width=1080,height=1920};FBLC/th_Qaau_TH;FBRV/455007274;FBCR/Telkom;FBMF/OnePlus;FBBD/OnePlus;FBPN/com.facebook.katana;FBDV/A3010;FBSV/7;FBCA/arm64-v8a:null;]";
+"]
